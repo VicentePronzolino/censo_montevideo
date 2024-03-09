@@ -1,0 +1,21 @@
+Tecnologías Utilizadas
+Hibernate: Este proyecto utiliza Hibernate como framework de mapeo objeto-relacional (ORM) para facilitar la interacción con la base de datos.
+
+Gradle: Se utiliza Gradle para la automatización de la construcción y gestión de dependencias del proyecto.
+
+Configuración de la Base de Datos
+Los detalles de configuración de la base de datos están en Censo/src/main/resources/application.properties
+
+Compilación y Ejecución
+Para compilar y ejecutar el proyecto, sigue estos pasos:
+
+Compilar el Proyecto:
+./gradlew build
+Este comando compilará el proyecto y generará los archivos necesarios para la ejecución.
+
+Ejecutar la Aplicación:
+./gradlew run
+Este comando iniciará la aplicación.
+
+Estado Actual del Proyecto
+El proyecto se encuentra actualmente en una fase de desarrollo. Estamos trabajar en la creación de los templates y las funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar).
